@@ -1,0 +1,111 @@
+{
+  "/":{
+    "type": "http",
+    "Controller": {
+      "name" : "Main"
+    },
+    "View" : "index"
+  },
+  "/admin/addGroup":{
+    "type": "http",
+    "Controller": {
+      "name": "Main",
+      "action": "addGroup"
+    },
+    "View": "addGroup"
+  },
+  "/admin/addList":{
+    "type": "http",
+    "Controller": {
+      "name": "Main",
+      "action": "addList"
+    },
+    "View": "addList"
+  },
+  "/admin/addSong":{
+    "type": "http",
+    "Controller": {
+      "name": "Main",
+      "action": "addSong"
+    },
+    "View": "addSong"
+  },
+  "/admin/forms/addGroup":{
+    "type": "http",
+    "Controller":{
+      "name": "Forms",
+      "action": "addGroup"
+    }
+  },
+  "/list": {
+    "type": "http",
+    "Controller": {
+      "name": "List"
+    }
+  },
+  "/list/add":{
+    "type": "http",
+    "Controller": {
+      "name": "List",
+      "action": "addList"
+    }
+  },
+  "/list/group/:id":{
+    "type": "http",
+    "Controller":{
+      "name": "List",
+      "action": "getByGroup"
+    }
+  },
+  "/list/:id":{
+    "type": "http",
+    "Controller": {
+      "name" : "List",
+      "action": "getList"
+    }
+  },
+  "/group":{
+    "type": "http",
+    "Controller": {
+      "name": "Group"
+    }
+  },
+  "/group/get/:id":{
+    "type": "http",
+    "Controller": {
+      "name": "Group",
+      "action": "getIntID"
+    }
+  },
+  "/group/:id":{
+    "type": "http",
+    "Controller": {
+      "name": "Group",
+      "action": "getGroup"
+    }
+  },
+  "/song":{
+    "type": "http",
+    "Controller": {
+      "name": "Song"
+    }
+  },
+  "/song/add":{
+    "type": "http",
+    "Controller": {
+      "name": "Song",
+      "action": "addSong"
+    }
+  },
+  "/song/:id":{
+    "type": "http",
+    "Controller": {
+      "name": "Song",
+      "action": "getSong"
+    }
+  },
+  "/upload":{
+    "type": "upload",
+    "file": "image"
+  }
+}

@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/css/materialize.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="/css/addgroup.css" /> -->
+  </head>
+  <body>
+    <div class="container">
+      <a href="/" class="btn btn-wave"><</a>
+      <form action="/admin/forms/addGroup">
+        <div class="input-field col s6">
+          <input id="name" name="title" type="text" class="validate">
+          <label for="name">Nazwa</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="img" name="img_url" type="text" class="validate">
+          <label for="img">Obrazek url</label>
+        </div>
+        <button class="btn-wave btn-large btn-submit">Wyślij</button>
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th data-field="Tytuł">Tytuł</th>
+            <th data-field="Grupa">Grupa</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for x in lists %}
+            <tr>
+              <td>{{ x.left.title }}</td>
+              <td>{{ x.right.title }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="/js/materialize.min.js" ></script> -->
+  </body>
+</html>

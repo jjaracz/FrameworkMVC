@@ -1,0 +1,129 @@
+2016-04-09T13:47:59.367505218 0.265506s notice: Recursively removing directory /home/john/frameworkMVC/rethinkdb_data/tmp
+2016-04-09T13:47:59.468637567 0.366607s notice: Initializing directory /home/john/frameworkMVC/rethinkdb_data
+2016-04-09T13:47:59.468948223 0.366918s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/john/frameworkMVC/rethinkdb_data' did not already exist or is empty.)
+2016-04-09T13:47:59.469174440 0.367143s notice: Running rethinkdb 2.2.5 (GCC 5.3.0)...
+2016-04-09T13:47:59.548527541 0.446502s notice: Running on Linux 4.4.3-1-ARCH i686
+2016-04-09T13:47:59.548982002 0.446952s notice: Loading data from directory /home/john/frameworkMVC/rethinkdb_data
+2016-04-09T13:48:00.049183657 0.947154s info: Automatically using cache size of 100 MB
+2016-04-09T13:48:00.049646149 0.947616s warn: Cache size does not leave much memory for server and query overhead (available memory: 1069 MB).
+2016-04-09T13:48:00.049678626 0.947647s warn: Cache size is very low and may impact performance.
+2016-04-09T13:48:00.107645758 1.005615s notice: Listening for intracluster connections on port 29015
+2016-04-09T13:48:00.203004009 1.100973s notice: Listening for client driver connections on port 28015
+2016-04-09T13:48:00.203591518 1.101561s notice: Listening for administrative HTTP connections on port 8080
+2016-04-09T13:48:00.203602134 1.101570s notice: Listening on addresses: 127.0.0.1, ::1
+2016-04-09T13:48:00.203620572 1.101589s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-09T13:48:00.203627556 1.101595s notice: Server ready, "ACER_vn1" 032f2272-98ef-4110-b8f7-cd7cc86ade34
+2016-04-09T13:48:00.426978253 1.324947s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-04-09T13:50:40.958997275 161.856968s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-04-09T13:50:40.959268820 161.857238s notice: Shutting down client connections...
+2016-04-09T13:50:40.960025276 161.857995s notice: All client connections closed.
+2016-04-09T13:50:40.960045530 161.858014s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-04-09T13:50:41.028795673 161.926766s notice: Storage engine shut down.
+2016-04-09T13:55:46.017566279 0.922986s notice: Running rethinkdb 2.2.6 (GCC 5.3.0)...
+2016-04-09T13:55:46.050843507 0.956260s notice: Running on Linux 4.4.3-1-ARCH i686
+2016-04-09T13:55:46.051047026 0.956456s notice: Loading data from directory /home/john/frameworkMVC/rethinkdb_data
+2016-04-09T13:55:46.233223346 1.138633s info: Automatically using cache size of 100 MB
+2016-04-09T13:55:46.233751210 1.139161s warn: Cache size does not leave much memory for server and query overhead (available memory: 1064 MB).
+2016-04-09T13:55:46.233783128 1.139192s warn: Cache size is very low and may impact performance.
+2016-04-09T13:55:46.235919657 1.141329s notice: Listening for intracluster connections on port 29015
+2016-04-09T13:55:46.241989116 1.147399s notice: Listening for client driver connections on port 28015
+2016-04-09T13:55:46.252163037 1.157573s notice: Listening for administrative HTTP connections on port 8080
+2016-04-09T13:55:46.252181754 1.157590s notice: Listening on addresses: 127.0.0.1, ::1
+2016-04-09T13:55:46.252187551 1.157596s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-09T13:55:46.252200053 1.157608s notice: Server ready, "ACER_vn1" 032f2272-98ef-4110-b8f7-cd7cc86ade34
+2016-04-09T13:56:48.794066400 63.699477s warn: Received invalid clustering header from 127.0.0.1:41550, closing connection -- something might be connecting to the wrong port.
+2016-04-09T13:59:37.524828215 232.430241s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-04-09T13:59:37.525339038 232.430750s notice: Shutting down client connections...
+2016-04-09T13:59:37.526173926 232.431585s notice: All client connections closed.
+2016-04-09T13:59:37.526208009 232.431618s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-04-09T13:59:37.529123484 232.434534s notice: Storage engine shut down.
+2016-04-09T14:00:37.555865834 0.258303s notice: Running rethinkdb 2.2.6 (GCC 5.3.0)...
+2016-04-09T14:00:37.577702772 0.280135s notice: Running on Linux 4.4.3-1-ARCH i686
+2016-04-09T14:00:37.578113790 0.280539s notice: Loading data from directory /home/john/frameworkMVC/rethinkdb_data
+2016-04-09T14:00:37.703558478 0.405984s info: Automatically using cache size of 100 MB
+2016-04-09T14:00:37.704079358 0.406505s warn: Cache size does not leave much memory for server and query overhead (available memory: 1074 MB).
+2016-04-09T14:00:37.704109321 0.406533s warn: Cache size is very low and may impact performance.
+2016-04-09T14:00:37.706360391 0.408785s notice: Listening for intracluster connections on port 29015
+2016-04-09T14:00:37.711790309 0.414216s notice: Listening for client driver connections on port 28015
+2016-04-09T14:00:37.750111510 0.452536s notice: Listening for administrative HTTP connections on port 8080
+2016-04-09T14:00:37.750131415 0.452555s notice: Listening on addresses: 127.0.0.1, ::1
+2016-04-09T14:00:37.750137491 0.452561s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-09T14:00:37.750150342 0.452574s notice: Server ready, "ACER_vn1" 032f2272-98ef-4110-b8f7-cd7cc86ade34
+2016-04-09T14:08:23.190470658 465.892896s info: Table 968f00f1-8e6d-4736-bb6e-dd3faeba958b: Added replica on this server.
+2016-04-09T14:08:24.246882878 466.949307s info: Table 968f00f1-8e6d-4736-bb6e-dd3faeba958b: Starting a new Raft election for term 1.
+2016-04-09T14:08:24.307087810 467.009512s info: Table 968f00f1-8e6d-4736-bb6e-dd3faeba958b: This server is Raft leader for term 1. Latest log index is 0.
+2016-04-09T14:17:44.835897321 1027.538323s notice: Removing file /home/john/frameworkMVC/rethinkdb_data/968f00f1-8e6d-4736-bb6e-dd3faeba958b
+2016-04-09T14:17:44.836567732 1027.538993s info: Table 968f00f1-8e6d-4736-bb6e-dd3faeba958b: Deleted the table.
+2016-04-09T14:17:52.766764800 1035.469190s info: Table c645d7f0-3394-4ef2-8e26-8249b5e9347d: Added replica on this server.
+2016-04-09T14:17:53.802517475 1036.504944s info: Table c645d7f0-3394-4ef2-8e26-8249b5e9347d: Starting a new Raft election for term 1.
+2016-04-09T14:17:53.881153790 1036.583580s info: Table c645d7f0-3394-4ef2-8e26-8249b5e9347d: This server is Raft leader for term 1. Latest log index is 0.
+2016-04-09T14:18:12.567025839 1055.269451s notice: Removing file /home/john/frameworkMVC/rethinkdb_data/c645d7f0-3394-4ef2-8e26-8249b5e9347d
+2016-04-09T14:18:12.567328882 1055.269754s info: Table c645d7f0-3394-4ef2-8e26-8249b5e9347d: Deleted the table.
+2016-04-09T14:22:58.620360896 1341.322786s info: Table 80b178e1-f597-47ea-907b-61a754e8bb00: Added replica on this server.
+2016-04-09T14:22:58.666588605 1341.369014s info: Table fdfca57f-58a8-4e78-bb7b-e24224f2ea3c: Added replica on this server.
+2016-04-09T14:22:58.667356236 1341.369784s info: Table 9df8c75b-6a2b-4222-9aea-fd270c3d42e1: Added replica on this server.
+2016-04-09T14:22:59.703168346 1342.405594s info: Table 80b178e1-f597-47ea-907b-61a754e8bb00: Starting a new Raft election for term 1.
+2016-04-09T14:22:59.764600398 1342.467026s info: Table 80b178e1-f597-47ea-907b-61a754e8bb00: This server is Raft leader for term 1. Latest log index is 0.
+2016-04-09T14:23:00.185741101 1342.888167s info: Table 9df8c75b-6a2b-4222-9aea-fd270c3d42e1: Starting a new Raft election for term 1.
+2016-04-09T14:23:00.344921109 1343.047346s info: Table fdfca57f-58a8-4e78-bb7b-e24224f2ea3c: Starting a new Raft election for term 1.
+2016-04-09T14:23:00.359280158 1343.061706s info: Table 9df8c75b-6a2b-4222-9aea-fd270c3d42e1: This server is Raft leader for term 1. Latest log index is 0.
+2016-04-09T14:23:00.528398721 1343.230825s info: Table fdfca57f-58a8-4e78-bb7b-e24224f2ea3c: This server is Raft leader for term 1. Latest log index is 0.
+2016-04-09T21:38:52.901253343 27495.603680s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-04-09T21:38:52.901605625 27495.604030s notice: Shutting down client connections...
+2016-04-09T21:38:52.901833868 27495.604259s notice: All client connections closed.
+2016-04-09T21:38:52.901857055 27495.604282s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-04-09T21:38:52.965444087 27495.667870s notice: Storage engine shut down.
+2016-04-09T21:38:59.571071263 5.305847s notice: Running rethinkdb 2.2.6 (GCC 5.3.0)...
+2016-04-09T21:38:59.611163590 5.345939s notice: Running on Linux 4.4.3-1-ARCH i686
+2016-04-09T21:38:59.611434296 5.346202s notice: Loading data from directory /home/john/frameworkMVC/rethinkdb_data
+2016-04-09T21:38:59.792397429 5.527168s info: Automatically using cache size of 100 MB
+2016-04-09T21:38:59.793723655 5.528494s warn: Cache size does not leave much memory for server and query overhead (available memory: 971 MB).
+2016-04-09T21:38:59.794858095 5.529628s warn: Cache size is very low and may impact performance.
+2016-04-09T21:38:59.798325111 5.533094s notice: Listening for intracluster connections on port 29015
+2016-04-09T21:39:00.301161085 6.035929s notice: Listening for client driver connections on port 28015
+2016-04-09T21:39:00.302630277 6.037400s notice: Listening for administrative HTTP connections on port 8080
+2016-04-09T21:39:00.302648645 6.037416s notice: Listening on addresses: 127.0.0.1, ::1
+2016-04-09T21:39:00.302658493 6.037426s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-09T21:39:00.302665547 6.037433s notice: Server ready, "ACER_vn1" 032f2272-98ef-4110-b8f7-cd7cc86ade34
+2016-04-09T21:39:01.473529446 7.208297s info: Table 80b178e1-f597-47ea-907b-61a754e8bb00: Starting a new Raft election for term 2.
+2016-04-09T21:39:01.524025055 7.258793s info: Table 80b178e1-f597-47ea-907b-61a754e8bb00: This server is Raft leader for term 2. Latest log index is 3.
+2016-04-09T21:39:01.612283488 7.347052s info: Table 9df8c75b-6a2b-4222-9aea-fd270c3d42e1: Starting a new Raft election for term 2.
+2016-04-09T21:39:01.954777185 7.689547s info: Table 9df8c75b-6a2b-4222-9aea-fd270c3d42e1: This server is Raft leader for term 2. Latest log index is 3.
+2016-04-09T21:39:02.360923497 8.095692s info: Table fdfca57f-58a8-4e78-bb7b-e24224f2ea3c: Starting a new Raft election for term 2.
+2016-04-09T21:39:02.480524058 8.215293s info: Table fdfca57f-58a8-4e78-bb7b-e24224f2ea3c: This server is Raft leader for term 2. Latest log index is 3.
+2016-04-10T12:30:13.441008858 0.715561s notice: Running rethinkdb 2.2.6 (GCC 5.3.0)...
+2016-04-10T12:30:13.510227449 0.784777s notice: Running on Linux 4.4.3-1-ARCH i686
+2016-04-10T12:30:13.510933472 0.785479s notice: Loading data from directory /home/john/frameworkMVC/rethinkdb_data
+2016-04-10T12:30:13.923752044 1.198295s info: Automatically using cache size of 100 MB
+2016-04-10T12:30:13.924940319 1.199484s warn: Cache size does not leave much memory for server and query overhead (available memory: 937 MB).
+2016-04-10T12:30:13.924975170 1.199518s warn: Cache size is very low and may impact performance.
+2016-04-10T12:30:14.066360132 1.340903s notice: Listening for intracluster connections on port 29015
+2016-04-10T12:30:14.721323368 1.995869s notice: Listening for client driver connections on port 28015
+2016-04-10T12:30:14.722455700 1.997000s notice: Listening for administrative HTTP connections on port 8080
+2016-04-10T12:30:14.722467363 1.997009s notice: Listening on addresses: 127.0.0.1, ::1
+2016-04-10T12:30:14.722473998 1.997016s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-10T12:30:14.722480424 1.997022s notice: Server ready, "ACER_vn1" 032f2272-98ef-4110-b8f7-cd7cc86ade34
+2016-04-10T12:30:15.726761522 3.001304s info: Table 9df8c75b-6a2b-4222-9aea-fd270c3d42e1: Starting a new Raft election for term 3.
+2016-04-10T12:30:15.799565472 3.074109s info: Table 9df8c75b-6a2b-4222-9aea-fd270c3d42e1: This server is Raft leader for term 3. Latest log index is 6.
+2016-04-10T12:30:15.822116856 3.096659s info: Table 80b178e1-f597-47ea-907b-61a754e8bb00: Starting a new Raft election for term 3.
+2016-04-10T12:30:15.944460433 3.219005s info: Table 80b178e1-f597-47ea-907b-61a754e8bb00: This server is Raft leader for term 3. Latest log index is 6.
+2016-04-10T12:30:16.369786063 3.644329s info: Table fdfca57f-58a8-4e78-bb7b-e24224f2ea3c: Starting a new Raft election for term 3.
+2016-04-10T12:30:16.505627045 3.780171s info: Table fdfca57f-58a8-4e78-bb7b-e24224f2ea3c: This server is Raft leader for term 3. Latest log index is 6.
+2385-04-13T08:18:54.314861900 0.197329s notice: Running rethinkdb 2.2.4-windows-alpha-4 (debug) (MSC 190023506)...
+2385-04-13T08:18:54.314861901 0.199610s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2385-04-13T08:18:54.314861902 0.200274s notice: Loading data from directory F:\\frameworkMVC\\rethinkdb_data
+2385-04-13T08:18:55.553066100 1.439673s error: Error in thread 2 in C:\\Users\\atnnn\\Documents\\Visual Studio 2015\\Projects\\rethinkdb2\\src\\clustering/administration/persist/file.hpp at line 62:
+2385-04-13T08:18:55.553066101 1.441136s error: Guarantee failed: [res == archive_result_t::SUCCESS] Deserialization of metadata_file_t::read_txn_t::read failed with error archive_result_t::RANGE_ERROR.
+2385-04-13T08:18:55.553066102 1.442627s error: Backtrace:
+2385-04-13T08:19:09.093014600 0.184858s notice: Running rethinkdb 2.2.4-windows-alpha-4 (debug) (MSC 190023506)...
+2385-04-13T08:19:09.093014601 0.185958s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2385-04-13T08:19:09.093014602 0.186685s notice: Loading data from directory F:\\frameworkMVC\\rethinkdb_data
+2385-04-13T08:19:10.185016500 1.285281s error: Error in thread 2 in C:\\Users\\atnnn\\Documents\\Visual Studio 2015\\Projects\\rethinkdb2\\src\\clustering/administration/persist/file.hpp at line 62:
+2385-04-13T08:19:10.185016501 1.286963s error: Guarantee failed: [res == archive_result_t::SUCCESS] Deserialization of metadata_file_t::read_txn_t::read failed with error archive_result_t::RANGE_ERROR.
+2385-04-13T08:19:10.185016502 1.288735s error: Backtrace:
+2385-04-13T08:19:19.435832700 0.202841s notice: Running rethinkdb 2.2.4-windows-alpha-4 (debug) (MSC 190023506)...
+2385-04-13T08:19:19.435832701 0.204189s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2385-04-13T08:19:19.435832702 0.205070s notice: Loading data from directory F:\\frameworkMVC\\rethinkdb_data
+2385-04-13T08:19:21.229835900 2.007944s error: Error in thread 2 in C:\\Users\\atnnn\\Documents\\Visual Studio 2015\\Projects\\rethinkdb2\\src\\clustering/administration/persist/file.hpp at line 62:
+2385-04-13T08:19:21.229835901 2.009636s error: Guarantee failed: [res == archive_result_t::SUCCESS] Deserialization of metadata_file_t::read_txn_t::read failed with error archive_result_t::RANGE_ERROR.
+2385-04-13T08:19:21.245435900 2.013157s error: Backtrace:

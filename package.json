@@ -1,0 +1,15 @@
+{
+  "name": "FrameworkMVC",
+  "version": "0.0.1",
+  "description": "Framework for NodeJS with MVC",
+  "dependencies": {
+    "swig" : "*",
+    "socket.io" : "*",
+    "mime" : "*",
+    "rethinkdb" : "2.2.1",
+    "futures": ">=2.1.0",
+    "multer": "1.1.0",
+    "formidable": "*",
+    "mocha": "*"
+  }
+}
